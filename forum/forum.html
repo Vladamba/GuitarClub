@@ -7,31 +7,39 @@
     <title>Forum for guitarists</title>
 </head>
 <body>
-<div class="findContainer">
-    <h3>Enter you question</h3>
-    <input type="text">
-    <div>
-        <input type="checkbox" id="onlyHeaders">
-        <label for="onlyHeaders">Only headers</label>
+<a href="">Back home</a>
+<form>
+    <div class="searchContainer">
+        <h3>Enter you question</h3>
+        <input type="text">
+        <div class="onlyHeaderContainer">
+            <input style="display: inline-block" type="checkbox" id="onlyHeaders">
+            <label for="onlyHeaders">Only headers</label>
+        </div>
+        <div>
+            <button>Search</button>
+        </div>
     </div>
-    <div>
-        <button>Find</button>
-    </div>
-</div>
+</form>
 <hr>
 <h3>Nothing here(</h3>
 <hr>
+<h3>Leave a message for young men</h3>
 <form>
-    <h3>Leave a message for young men</h3>
-    <div>
-        <input type="text">
+    <div class="createContainer">
+        <div>
+            <label for="name">Your name</label>
+            <label for="header">Header</label>
+            <label for="message">Message</label>
+        </div>
+        <div>
+            <input type="text" id="name">
+            <input type="text" id="header">
+            <input type="text" id="message">
+            <button>Create</button>
+        </div>
     </div>
-    <div>
-        <input type="text">
-    </div>
-    <div>
-        <input type="text">
-    </div>
+
 </form>
 
 <script src="app.js"></script>

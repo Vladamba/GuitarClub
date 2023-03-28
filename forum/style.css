@@ -7,8 +7,37 @@ body {
     background: orange;
 }
 
-.findContainer {
+h3 {
+    margin: 0px 10px;
+}
+
+.searchContainer {
     position: relative;
     left: 30vw;
     width: 40vw;
+}
+
+.onlyHeaderContainer {
+    margin: 10px 0px;
+}
+
+.createContainer {
+    display: flex;
+}
+
+.createContainer label {
+    margin: 10px;
+    display: block;
+    font-size: 21px;
+}
+
+.createContainer input {
+    margin: 10px;
+    display: block;
+}
+
+.createContainer button {
+    position: relative;
+    left: 30%;
+    width: 40%;
 }

@@ -34,7 +34,7 @@ body {
     transition: all 500ms ease-in-out;
 }
 
-.slide h3 {
+.slide a {
     position: absolute;
     font-size: 32px;
     bottom: 20px;
@@ -48,7 +48,7 @@ body {
     flex: 10;
 }
 
-.slide.active h3 {
+.slide.active a {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
@@ -58,7 +58,7 @@ body {
     .slide {
         height: 15vh;
     }
-    .slide h3 {
+    .slide a {
         font-size: 16px;
     }
 }
