@@ -1,20 +1,34 @@
 body {
     font-family: 'Muli', sans-serif;
     margin: 0px;
-    /*height: 100vh;
-    justify-content: center;
-    align-items: center;*/
     background: orange;
+}
+
+header{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+.headerText{
+    margin: 0px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+.footerText{
+    margin: 0px;
 }
 
 h3 {
     margin: 0px 10px;
 }
 
-.searchContainer {
-    position: relative;
-    left: 30vw;
-    width: 40vw;
+form{
+    display: flex;
+    justify-content: center;
 }
 
 .onlyHeaderContainer {

@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+
+header{
+    background-color: blanchedalmond;
+}
+.headerH3{
+    margin: 0;
+    padding: 10px;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.headerFooterH4{
+    margin: 0;
+    padding: 10px;
+    color: #235ec8;
+}
+footer {
+    background-color: blanchedalmond;
+}
+
+.home{
+    display: flex;
+    padding: 10px;
+}
+.home img{
+    height: 4vh;
+    /*Juicy Fish*/
+}
+.home a{
+    padding: 3px;
+    margin: 0px 5px;
+    font-size: 20px;
+    border: solid 2px #235ec8;
+}
+
+.container{
+    text-align: center;
+}
+
+button{
+    display: block;
+    width: 30vw;
+    margin: 15px 35vw;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+#mainButton {
+    background-color: aqua;
+}
+
+.pickImage {
+    height: 30vh;
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.3s;
+}
+
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    button{
+        display: initial;
+        width: 70vw;
+        margin: 5px 0px;
+    }
+}

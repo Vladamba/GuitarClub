@@ -1,22 +1,32 @@
 body {
     font-family: 'Muli', sans-serif;
     margin: 0px;
-    height: 100vh;
+    background-color: #000033;
+}
+
+header{
+    background-color: blanchedalmond;
+}
+.headerH3{
+    margin: 0;
+    padding: 10px;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.headerFooterH4{
+    margin: 0;
+    padding: 10px;
+    color: #235ec8;
+}
+footer{
+    background-color: blanchedalmond;
+}
+
+
+.slideContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background: #003;
-    background-image: url("G.png");
-    background-size: 8vh;
-    background-position-x: center;
-    background-position-y: 1vh;
-    background-repeat: no-repeat;
-}
-
-.slideContainer {
-    width: 100%;
-    display: flex;
     padding: 0px 20px;
 }
 
@@ -54,7 +64,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-
     .slide {
         height: 15vh;
     }
