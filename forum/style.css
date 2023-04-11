@@ -6,52 +6,108 @@ body {
 
 header{
     background-color: blanchedalmond;
-    display: flex;
-    justify-content: center;
 }
-.headerText{
-    margin: 0px;
+.headerH3{
+    margin: 0;
+    padding: 10px;
+    color: cornflowerblue;
+    text-decoration: underline;
 }
-
-footer{
+.headerFooterH4{
+    margin: 0;
+    padding: 10px;
+    color: #235ec8;
+}
+footer {
     background-color: blanchedalmond;
+}
+
+.home {
+    display: flex;
+    padding: 10px;
+}
+.home img {
+    height: 4vh;
+    /*Juicy Fish*/
+}
+.home a {
+    padding: 3px;
+    margin: 0px 5px;
+    font-size: 20px;
+    border: solid 2px #235ec8;
+}
+
+
+form {
     display: flex;
     justify-content: center;
 }
-.footerText{
-    margin: 0px;
-}
 
-h3 {
-    margin: 0px 10px;
-}
-
-form{
-    display: flex;
-    justify-content: center;
-}
-
-.onlyHeaderContainer {
-    margin: 10px 0px;
-}
-
-.createContainer {
-    display: flex;
-}
-
-.createContainer label {
-    margin: 10px;
+input {
+    width: 200px;
+    padding: 3px;
+    margin: 5px 0px;
     display: block;
-    font-size: 21px;
+    font-size: 16px;
+    color: #235ec8;
 }
 
-.createContainer input {
-    margin: 10px;
+label{
     display: block;
+    font-size: 20px;
+    text-shadow: 1px 0px 5px white;
 }
 
-.createContainer button {
+.submitButton {
+    width: 100px;
+    border-radius: 5px;
     position: relative;
-    left: 30%;
-    width: 40%;
+    left: 50px;
 }
+
+#onlyHeaders {
+    display: inline;
+    width: 20px;
+}
+
+#onlyHeadersLabel {
+    display: inline;
+    font-size: 18px;
+}
+
+#message {
+    height: 60px;
+    width: 200px;
+    padding: 3px;
+    margin: 5px 0px;
+    display: block;
+    resize: none;
+    font-size: 16px;
+    color: #235ec8;
+}
+
+.answerContainer {
+    background-color: blanchedalmond;
+    margin: 10px 35vw;
+    padding: 0px 10px;
+    border: solid 2px #235ec8;
+    border-radius: 10px;
+    color: #235ec8;
+}
+
+.answerContainer div {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.centerH3 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .answerContainer {
+        margin: 10px 15vw;
+    }
+}
+
+

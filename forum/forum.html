@@ -8,43 +8,51 @@
 </head>
 <body>
 <header>
-    <h3 class="headerText">This is a small site for guitarists and all other genders</h3>
+    <h3 class="headerH3">GuitarsAndMetal.com</h3>
+    <h4 class="headerFooterH4">This is a small site for guitarists and all other genders</h4>
 </header>
-<a href="">Back home</a>
+<div class="home">
+    <img src="amp.png">
+    <a href="">Back home</a>
+</div>
 <form>
-    <div class="searchContainer">
-        <h3>Enter you question</h3>
-        <input type="text">
-        <div class="onlyHeaderContainer">
-            <input style="display: inline-block" type="checkbox" id="onlyHeaders">
-            <label for="onlyHeaders">Only headers</label>
-        </div>
-        <div>
-            <button>Search</button>
-        </div>
+    <div>
+        <label for="question">Enter you question</label>
+        <input type="text" id="question">
+        <input type="checkbox" id="onlyHeaders">
+        <label for="onlyHeaders" id="onlyHeadersLabel">Only headers</label>
+        <input type="submit" id="search" class="submitButton" value="Search">
     </div>
 </form>
 <hr>
-<h3>Nothing here(</h3>
+<h3 class="centerH3">Nothing here(</h3>
+
+<div class="answerContainer">
+    <h3 class="centerH3">How to hold a pick</h3>
+    <div>You skdufb s sjsdfsd s dfhbds d ssjdfifs szxbvzxjcsbzkjcnz kxjckd fsdszxjcbf sdf svkjznxkjcbk jbckud fsduzbd fsd fcksdfsdf sdfjzbvk jzbx</div>
+    <h4>done by MilkHunter123</h4>
+</div>
+<div class="answerContainer">
+    <h3 class="centerH3">How to bake a cake</h3>
+    <div>You skdufb s sjsdfsd s dfhbds d ssjdfifs szxbvzxjcsbzkjcnz kxjckd fsdszxjcbf sdf svkjznxkjcbk jbckud fsduzbd fsd fcksdfsdf sdfjzbvk jzbx</div>
+    <h4>done by ManOfTheSilverMountain</h4>
+</div>
+
 <hr>
-<h3>Leave a message for young men</h3>
+<h3 class="centerH3">Leave a message for young men</h3>
 <form>
-    <div class="createContainer">
-        <div>
-            <label for="name">Your name</label>
-            <label for="header">Header</label>
-            <label for="message">Message</label>
-        </div>
-        <div>
-            <input type="text" id="name">
-            <input type="text" id="header">
-            <input type="text" id="message">
-            <button>Create</button>
-        </div>
+    <div>
+        <label for="name">Your name</label>
+        <input type="text" id="name">
+        <label for="header">Header</label>
+        <input type="text" id="header">
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+        <input type="submit" id="create" class="submitButton" value="Create">
     </div>
 </form>
 <footer>
-    <h4 class="footerText">This site was made by Vladamba666</h4>
+    <h4 class="headerFooterH4">This site was made by Vladamba666</h4>
 </footer>
 
 <script src="app.js"></script>

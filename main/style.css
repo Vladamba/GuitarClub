@@ -4,21 +4,21 @@ body {
     background-color: #000033;
 }
 
-header{
+header {
     background-color: blanchedalmond;
 }
-.headerH3{
+.headerH3 {
     margin: 0;
     padding: 10px;
     color: cornflowerblue;
     text-decoration: underline;
 }
-.headerFooterH4{
+.headerFooterH4 {
     margin: 0;
     padding: 10px;
     color: #235ec8;
 }
-footer{
+footer {
     background-color: blanchedalmond;
 }
 
