@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style.css"/>
-    <title>What pick are you</title>
+    <!-- directory -->
+    <title><!-- title --></title>
 </head>
 <body>
 <header>
     <h3 class="headerH3">GuitarsAndMetal.com</h3>
     <h4 class="headerFooterH4">This is a small site for guitarists and all other genders</h4>
 </header>
-<div class="home">
-    <img src="amp.png">
-    <a href="">Back home</a>
-</div>
-<div class="container">
-    <h3 id="headerText">Answer 3 questions to find out</h3>
-    <h2 id="questionText">what pick are you</h2>
-    <img class="pickImage" id="image" src="">
-    <div id="answersContainer"></div>
-    <button id="mainButton" onclick="start()">Start</button>
-</div>
+
+<!-- content -->
+
 <footer>
     <h4 class="headerFooterH4">This site was made by Vladamba666</h4>
 </footer>

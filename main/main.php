@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css"/>
-    <title>Guitars&\m/</title>
-</head>
-<body>
-<header>
-    <h3 class="headerH3">GuitarsAndMetal.com</h3>
-    <h4 class="headerFooterH4">This is a small site for guitarists and all other genders</h4>
-</header>
 <div class="slideContainer">
     <div class="slide" style="background-image: url('What_pick_are_you.jpg')">
         <a href="" style="color: yellow;">What pick are you</a>
@@ -28,10 +15,3 @@
         <a href="" style="color: mediumpurple;">My music</a>
     </div>
 </div>
-<footer>
-    <h4 class="headerFooterH4">This site was made by Vladamba666</h4>
-</footer>
-
-<script src="app.js"></script>
-</body>
-</html>

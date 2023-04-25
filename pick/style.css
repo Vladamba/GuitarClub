@@ -3,24 +3,6 @@ body {
     background-color: beige;
 }
 
-header {
-    background-color: blanchedalmond;
-}
-.headerH3 {
-    margin: 0;
-    padding: 10px;
-    color: cornflowerblue;
-    text-decoration: underline;
-}
-.headerFooterH4 {
-    margin: 0;
-    padding: 10px;
-    color: #235ec8;
-}
-footer {
-    background-color: blanchedalmond;
-}
-
 .home {
     display: flex;
     padding: 10px;
