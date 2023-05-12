@@ -1,6 +1,6 @@
 <div class="home">
     <img src="amp.png">
-    <a href="">Back home</a>
+    <a href="../main/">Back home</a>
 </div>
 <form>
     <div>

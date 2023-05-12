@@ -1,6 +1,6 @@
 <div class="home">
     <img src="amp.png">
-    <a href="">Back home</a>
+    <a href="../main/">Back home</a>
 </div>
 <div class="container">
     <h3 id="headerText">Answer 3 questions to find out</h3>
