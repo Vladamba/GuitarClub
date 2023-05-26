@@ -80,6 +80,7 @@ label{
 .answerContainer div {
     text-indent: 20px;
     text-align: justify;
+    word-break: break-all;
 }
 
 .centerH3 {

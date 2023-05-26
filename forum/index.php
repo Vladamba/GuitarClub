@@ -1,19 +1,28 @@
 <?php
-$pageContent = renderTemplate("main.php");
-$layoutContent = renderTemplate('../header_footer.php',
-    ['content' => $pageContent, 'title' => 'Forum for guitarists', 'directory' => '../header_footer.css']);
+require_once 'config.php';
+require_once 'core.php';
 
-echo $layoutContent;
+$result = '';
+if (isset($_POST['create']))
+{
+    $name = trim($_POST['name']);
+    $header = trim($_POST['header']);
+    $message = trim($_POST['message']);
 
-function renderTemplate(string $filename, $tags = NULL) : string {
-    $s = file_get_contents($filename);
-    if ($tags != NULL) {
-        foreach ($tags as $key => $value) {
-            if ($key === 'directory') {
-                $s = str_replace("<!-- $key -->", "<link rel=\"stylesheet\" href=\"$value\"/>", $s);
-            }
-            $s = str_replace("<!-- $key -->", $value, $s);
-        }
+    if (mb_strlen($message) > 5) {
+        $sql = 'INSERT INTO `messages`(`name`, `header`, `message`) VALUES (:name, :header, :message)';
+        $query = $pdo->prepare($sql);
+        $query->execute([':name' => $name, ':header' => $header, ':message' => $message]);
+        $result = 'Вы молодец';
+    } else {
+        $result = 'В сообщении ссылка!';
     }
-    return $s;
 }
+
+$content = file_get_contents('main.tpl');
+$content = str_replace('{messages}', get_messages(), $content);
+$content = str_replace('{result}', $result, $content);
+
+$header_footer = file_get_contents('../header_footer.tpl');
+$header_footer = str_replace('{content}', $content, $header_footer);
+echo $header_footer;
